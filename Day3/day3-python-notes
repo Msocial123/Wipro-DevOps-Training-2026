@@ -1,0 +1,71 @@
+Type casting
+==========
+
+	Ø It is nothing but converting one datatype into another one is called type casting
+	Ø Python dynamically typed, but sometimes we must manually convert data types to perform operations correctly
+
+Why?
+=====
+	Ø User input always taken as string
+	Ø Mathematical operations need numeric types
+	Ø combining different data types in programs
+	Ø Data processing and formatting 
+
+
+Types of type casting
+===============
+
+	1. Implicit type casting (automatic)
+===========================
+
+	Ø Python automatically converts smaller data types into larger ones.
+
+
+a = 10  # int
+b = 2.5  # float 
+c = a + b # int automatically converted to float 
+print(c)
+print(type(c))
+
+	2. Explicit type casting (manual)
+==========================
+
+	Ø Programmer manually converts data types using built-in functions.
+
+
+# string to integer 
+x = "100"
+y = int(x)
+print(y + 50)
+
+
+# integer to string
+a = 25
+b = str(a)
+print("age is " + b) 
+
+
+
+# float to integer 
+x = 10.9
+y = int(x)
+print(y)
+
+
+# user input examples 
+num1 = int(input("enter fisrt number: "))
+num2 = int(input("enter second number: "))
+print ("Sum =", num1 + num2)
+
+
+# list to tuple
+a = [1, 2, 3]
+b = tuple(a)
+print(b)
+
+
+# boolean type casting
+print(bool(0))
+print(bool(1))
+print(bool(""))
+print(bool("hello"))
