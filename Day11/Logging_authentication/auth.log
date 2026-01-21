@@ -1,0 +1,96 @@
+2026-01-21 11:43:03,904 - INFO - Login attempt for username: murali
+2026-01-21 11:43:03,904 - DEBUG - Checking if 'murali' exists in system
+2026-01-21 11:43:03,904 - DEBUG - Loading user database from file
+2026-01-21 11:43:03,920 - INFO - User database loaded successfully
+2026-01-21 11:43:03,920 - INFO - User 'murali' logged in successfully
+2026-01-21 11:43:03,920 - INFO - Login operation completed
+2026-01-21 11:43:50,103 - INFO - Login attempt for username: m
+2026-01-21 11:43:50,104 - DEBUG - Checking if 'm' exists in system
+2026-01-21 11:43:50,104 - DEBUG - Loading user database from file
+2026-01-21 11:43:50,105 - INFO - User database loaded successfully
+2026-01-21 11:43:50,105 - WARNING - Username 'm' does not exist
+2026-01-21 11:43:50,121 - INFO - Login operation completed
+2026-01-21 11:44:24,879 - INFO - Login attempt for username: murali
+2026-01-21 11:44:24,880 - DEBUG - Checking if 'murali' exists in system
+2026-01-21 11:44:24,880 - DEBUG - Loading user database from file
+2026-01-21 11:44:24,880 - INFO - User database loaded successfully
+2026-01-21 11:44:24,881 - ERROR - Incorrect password entered
+2026-01-21 11:44:24,881 - INFO - Login operation completed
+2026-01-21 11:44:41,529 - INFO - Login attempt for username: murali
+2026-01-21 11:44:41,530 - DEBUG - Checking if 'murali' exists in system
+2026-01-21 11:44:41,530 - DEBUG - Loading user database from file
+2026-01-21 11:44:41,530 - INFO - User database loaded successfully
+2026-01-21 11:44:41,530 - ERROR - Incorrect password entered
+2026-01-21 11:44:41,531 - INFO - Login operation completed
+2026-01-21 11:44:52,905 - INFO - Login attempt for username: murali
+2026-01-21 11:44:52,905 - DEBUG - Checking if 'murali' exists in system
+2026-01-21 11:44:52,905 - DEBUG - Loading user database from file
+2026-01-21 11:44:52,906 - INFO - User database loaded successfully
+2026-01-21 11:44:52,906 - ERROR - Incorrect password entered
+2026-01-21 11:44:52,906 - INFO - Login operation completed
+2026-01-21 11:46:00,367 - INFO - Login attempt for username: murali
+2026-01-21 11:46:00,368 - DEBUG - Checking if 'murali' exists in system
+2026-01-21 11:46:00,368 - DEBUG - Loading user database from file
+2026-01-21 11:46:00,368 - CRITICAL - User database file missing!
+2026-01-21 11:46:00,368 - CRITICAL - Unexpected system failure: Database file not found
+2026-01-21 11:46:00,368 - INFO - Login operation completed
+2026-01-21 15:50:06,825 - INFO - Login attempt for username: muarali
+2026-01-21 15:50:06,827 - DEBUG - Checking if 'muarali' exists in system
+2026-01-21 15:50:06,827 - DEBUG - Loading user database from file
+2026-01-21 15:50:06,829 - CRITICAL - User database file missing!
+2026-01-21 15:50:06,829 - CRITICAL - Unexpected system failure: Database file not found
+2026-01-21 15:50:06,829 - INFO - Login operation completed
+2026-01-21 15:50:53,751 - INFO - Login attempt for username: babu
+2026-01-21 15:50:53,753 - DEBUG - Checking if 'babu' exists in system
+2026-01-21 15:50:53,753 - DEBUG - Loading user database from file
+2026-01-21 15:50:53,753 - CRITICAL - User database file missing!
+2026-01-21 15:50:53,754 - CRITICAL - Unexpected system failure: Database file not found
+2026-01-21 15:50:53,754 - INFO - Login operation completed
+2026-01-21 15:51:46,628 - INFO - Login attempt for username: murali
+2026-01-21 15:51:46,630 - DEBUG - Checking if 'murali' exists in system
+2026-01-21 15:52:14,158 - DEBUG - Loading user database from file
+2026-01-21 15:52:14,159 - CRITICAL - User database file missing!
+2026-01-21 15:52:24,206 - CRITICAL - Unexpected system failure: Database file not found
+2026-01-21 15:52:30,788 - INFO - Login operation completed
+2026-01-21 15:57:14,348 - INFO - Login attempt for username: murali
+2026-01-21 15:57:14,349 - DEBUG - Checking if 'murali' exists in system
+2026-01-21 15:58:14,259 - DEBUG - Loading user database from file
+2026-01-21 15:58:14,260 - CRITICAL - User database file missing!
+2026-01-21 15:58:28,492 - CRITICAL - Unexpected system failure: Database file not found
+2026-01-21 15:58:37,273 - INFO - Login operation completed
+2026-01-21 15:59:23,061 - INFO - Login attempt for username: murali
+2026-01-21 15:59:23,063 - DEBUG - Checking if 'murali' exists in system
+2026-01-21 15:59:38,202 - DEBUG - Loading user database from file
+2026-01-21 16:01:01,992 - INFO - User database loaded successfully
+2026-01-21 16:01:11,997 - INFO - User 'murali' logged in successfully
+2026-01-21 16:01:16,635 - INFO - Login operation completed
+2026-01-21 16:21:55,028 - INFO - Login attempt for username: admin
+2026-01-21 16:21:55,030 - DEBUG - Checking if 'admin' exists in system
+2026-01-21 16:22:15,128 - DEBUG - Loading user database from file
+2026-01-21 16:22:15,130 - INFO - User database loaded successfully
+2026-01-21 16:22:15,130 - WARNING - Username 'admin' does not exist
+2026-01-21 16:22:15,131 - INFO - Login operation completed
+2026-01-21 16:22:45,296 - INFO - Login attempt for username: admin
+2026-01-21 16:22:45,298 - DEBUG - Checking if 'admin' exists in system
+2026-01-21 16:22:50,171 - DEBUG - Loading user database from file
+2026-01-21 16:22:50,172 - INFO - User database loaded successfully
+2026-01-21 16:22:57,267 - WARNING - Username 'admin' does not exist
+2026-01-21 16:23:13,352 - INFO - Login operation completed
+2026-01-21 16:23:28,431 - INFO - Login attempt for username: murali
+2026-01-21 16:23:28,432 - DEBUG - Checking if 'murali' exists in system
+2026-01-21 16:23:32,590 - DEBUG - Loading user database from file
+2026-01-21 16:24:16,214 - INFO - User database loaded successfully
+2026-01-21 16:24:23,207 - INFO - User 'murali' logged in successfully
+2026-01-21 16:24:28,335 - INFO - Login operation completed
+2026-01-21 16:26:55,501 - INFO - Login attempt for username: murali
+2026-01-21 16:26:55,502 - DEBUG - Checking if 'murali' exists in system
+2026-01-21 16:26:55,502 - DEBUG - Loading user database from file
+2026-01-21 16:28:07,027 - INFO - User database loaded successfully
+2026-01-21 16:28:07,031 - INFO - User 'murali' logged in successfully
+2026-01-21 16:28:07,031 - INFO - Login operation completed
+2026-01-21 16:28:28,608 - INFO - Login attempt for username: admin
+2026-01-21 16:28:28,609 - DEBUG - Checking if 'admin' exists in system
+2026-01-21 16:28:28,609 - DEBUG - Loading user database from file
+2026-01-21 16:29:13,046 - INFO - User database loaded successfully
+2026-01-21 16:29:13,046 - WARNING - Username 'admin' does not exist
+2026-01-21 16:29:13,047 - INFO - Login operation completed

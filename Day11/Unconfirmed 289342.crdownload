@@ -1,0 +1,52 @@
+# 1.import re module is for regular expressions in python.all the functions
+# and feautures required to perform regular expressions ,searching 
+
+# 2.next you need to creatr Regular Expression pattern .
+# 3.match the data by the patter 
+# 4.extract the data whihc is given in the pattern 
+
+import re #1
+
+# text= "my phone number is 9855252522 96523252352"
+
+# pattern=r"\d{10}" #2
+
+# match=re.search(pattern,text) #search method can return only at first occurance 
+# print("found:", match.group()) #group( itg grouped all the matteched patterns and return without modulename)
+
+
+# text= "my Phone number is 9855252522 96523252352"
+# pattern=re.compile(r"\d")
+# matches=pattern.finditer(text) #used to iterate all other patterns also 
+# for match in matches:
+#     print(match.group())
+
+# text = """
+# Hi, today is 17-Apr-2021, yesterday was 16-Apr-2021 and tomorrow will be 18-Apr-2021.
+# My schedule is free on 20-Apr-2021, 05.05.2021 and 16/Jun/2021.
+# You can reach out to me at myname2020@dummy.com or ask_help@demo.net & conference@demo.co.in.
+# You can also call me at one of the following no's +6382-087 1212, +6999.100 3344, 017-999808 etc.
+# """
+# datepattern=re.compile(r'\d{2}-[a-zA-z]{3}-\d{4}') #2
+# matches=datepattern.finditer(text) #3
+# for match in matches:
+#     print(match.group())
+
+# datepattern=re.compile(r'\d{2}[-./]([a-zA-z]{3}|\d{2})[-./]\d{4}') #2
+# matches=datepattern.finditer(text) #3
+# for match in matches:
+#     print(match.group())
+
+text = """
+Hi, today is 17-Apr-2021, yesterday was 16-Apr-2021 and tomorrow will be 18-Apr-2021.
+My schedule is free on 20-Apr-2021, 05.05.2021 and 16/Jun/2021.
+You can reach out to me at myname2020@dummy.com or ask_help@demo.net & conference@demo.co.in.
+You can also call me at one of the following no's +6382-087 1212, +6999.100 3344, 017-999808 etc.
+"""
+
+emailpattern=re.compile(r'\w+@[a-z]+(\.[a-z]{2,3})+')
+matches=emailpattern.finditer(text)
+for match in matches:
+    print(match.group())
+
+
