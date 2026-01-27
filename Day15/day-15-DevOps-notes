@@ -1,0 +1,64 @@
+DevOps Benefits 
+============
+
+	1. Faster Software Delivery :- automates build, test and deployment pipeline, releases happen in minutes instead of days or weeks.
+	2. Improved collaboration :- breaks silos between dev and ops teams, shared responsibility for product success.
+	3. Higher deployment frequency:- small and  frequent release reduce the risk and easier rollback if failures occur
+	4. Better product quality:- continuous testing catches bugs early and automated monitoring ensures stability
+	5. Reduced failure rate:- infrastructure as code ensures consistent env and eliminates manual configuration errors.
+	6. Faster issue recovery:- monitoring and logging detect problems quickly and auto-healing and rollback reduce downtime.
+	7. Cost efficiency:- cloud automation reduces manual labor 
+	8. Scalability:- applications scale automatically with app demand and supports modern cloud native architectures 
+	9. Enhanced security :- security integrated into cicd pipeline and  early vulnerability detections
+	10. Customer satisfaction :- faster feature delivery and more stable and reliable applications 
+
+
+Business level benefits
+===================
+
+	Ø Faster time to market 
+	Ø Competitive advantge
+	Ø Innovation enablement 
+
+Technical level benefits
+===================
+
+	Ø Cicd automation
+	Ø Infrastructre as code 
+	Ø Containerization and kubernetes
+	Ø Cloud native deployments
+
+DevOps Principles 
+===============
+
+	1. Culture :- colloboration between dev & ops, shared ownership
+	2. Automation:- automate build, test , deploy and infra and monitoring
+	3. Lean:- devlier small chnages freqently and remove waste - manual work, long approvlas
+	4. Measurment :- track system & tema performance 
+	5. Sharing :- share knowledge , tools and responsibilty
+	
+
+DevOps Culture 
+============
+	Ø It is a mindset and a way of working where dev and ops teams work together instead of working separately.
+	Ø It focuses on collaboration, automation and continuous improvement to deliver software faster, more reliable and with high quality.
+
+
+Principles of DevOps
+=================
+	1. Collaboration & Communication :- dev & ops teams break silos , everyone has to share responsibility for the app, frequent discussions instead of blame-game.
+	2. Automation:- automate everything --> Build, test, deployment, monitoring and infrastructure (iac), automation reduces errors and speeds up delivery
+	3. Continuous everything :
+ =======================
+
+	Ø Continuous integration(CI):- developers merge code frequently 
+	Ø Continuous deploy and deliver (CD):- deploy automatically to env
+	Ø Continuous monitoring:- monitor app logs, metrics and alerts .
+
+	1. Ownership & Accountability:- developers also think about "how will it run in production 
+	2. Customer-centric mindset:- deliver features quickly, improve based on feedback, focus in on user experience but not internal departments.
+	3. Fail fast, learn fast:- small experiments, accept failures and learn quickly and improve
+	4. Data-driven decisions:- using metrics to improve --> deployment frequency, lead time, meant time to recovery and production failure 
+
+
+
