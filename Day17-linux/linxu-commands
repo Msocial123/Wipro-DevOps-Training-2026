@@ -1,0 +1,34 @@
+   4  whoami
+    5  touch index.html
+    6  ls
+    7  touch login.html signup.html demo.html
+    8  ls
+    9  vi index.html 
+   10  ls
+   11  cat index.html 
+   12  ls
+   13  vi signup.html 
+   14  ls
+   15  cat signup.html 
+   16  ls
+   17  nano demo.html 
+   18  ls
+   19  cat demo.html 
+   20  vi ipl
+   21  ls
+   22  cat i
+   23  cat ipl 
+   24  ls
+   25  nano bcci
+   26  ls
+   27  cat bcci 
+   28  ls
+   29  rm demo.html 
+   30  ls
+   31  rm ipl 
+   32  ls
+   33  rm bcci 
+   34  ls
+   35  history
+   36 vi <file-name> - esc:wq
+   37 nano <file-name> - cntrl+x, cntlr+Y , enter
