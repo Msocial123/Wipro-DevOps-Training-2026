@@ -1,0 +1,68 @@
+    5  ls
+    6  touch index.html
+    7  ls
+    8  cat index.html 
+    9  vi login.html
+   10  ls
+   11  cat login.html 
+   12  ls
+   13  mv login.html murali.html
+   14  ls
+   15  cat murali.html 
+   16  ls
+   17  mv index.html demo.html
+   18  ls
+   19  mkdir wipro-devops-training
+   20  ls
+   21  mkdir DevOps
+   22  ls
+   23  cd DevOps/
+   24  ls
+   25  touch git docker
+   26  ls
+   27  mkdir kubernetes terraform ansible 
+   28  ls
+   29  pwd
+   30  cd ..
+   31  ls
+   32  pwd
+   33  cd wipro-devops-training/
+   34  pwd
+   35  ls
+   36  touch demo app sample
+   37  ls
+   38  mkdir nasa ipl
+   39  ls
+   40  cd ipl/
+   41  ls
+   42  pwd
+   43  touch SRH MI CSK RCB KKR DL
+   44  ls
+   45  mkdir BCCI
+   46  ls
+   47  cd BCCI/
+   48  ls
+   49  pwd
+   50  cd ../..
+   51  ls
+   52  cd ..
+   53  ls
+   54  rmdir DevOps/
+   55  ls
+   56  cd DevOps/
+   57  ls
+   58  rmdir ansible/
+   59  rm kubernetes/
+   60  rmdir kubernetes/
+   61  rmdir terraform/
+   62  ls
+   63  rm docker git 
+   64  ls
+   65  cd ..
+   66  ls
+   67  rmdir DevOps/
+   68  ls
+   69  rmdir wipro-devops-training/
+   70  rm -rf wipro-devops-training/
+   71  ls
+   72  history
