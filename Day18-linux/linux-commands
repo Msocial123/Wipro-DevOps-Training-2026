@@ -119,3 +119,16 @@
    21  chmod o+x index.html 
    22  ls -l index.html 
    23  history
+       5  touch ipl.html
+    6  ls 
+    7  ls -l ipl.html 
+    8  chmod 700 ipl.html 
+    9  ls -l ipl.html 
+   10  chmod 740 ipl.html 
+   11  ls -l ipl.html 
+   12  chmod 747 ipl.html 
+   13  ls -l ipl.html 
+   14  history
+   15  chmod 740 ipl.html 
+   16  ls -l ipl.html 
+   17  history
