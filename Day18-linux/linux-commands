@@ -100,3 +100,22 @@
    35  ping www.goolge.com
    36  ping www.amazon.com
    37  history
+       5  touch index.html
+    6  ls
+    7  ls -l index.html 
+    8  whoami
+    9  vi index.html 
+   10  ls
+   11  cat index.html 
+   12  ls -l index.html 
+   13  chmod u+x index.html 
+   14  ls -l index.html 
+   15  chmod g-r index.html 
+   16  ls -l index.html 
+   17  chmod g+r index.html 
+   18  ls -l index.html 
+   19  chmod g-r index.html 
+   20  ls -l index.html 
+   21  chmod o+x index.html 
+   22  ls -l index.html 
+   23  history

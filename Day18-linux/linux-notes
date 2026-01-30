@@ -1,0 +1,37 @@
+	Ø Every file has 3 type permissions
+
+	1. User level
+	2. Group level
+	3. Other level
+
+Permission types
+==============
+R -> read permission 
+W -> write permission 
+X - > executable permission 
+
+
+	1. Chmod:- change permissions (read, write and execute)
+	2. Chown:- change ownership ( user and group)
+
+
+R -> 4
+W -> 2
+X -> 1
+
+	Ø These numbers are important for numeric mode
+
+Chmod
+======
+
+	Ø There are two ways to change the file names using chmod
+
+	1. Symbolic mode (easy for beginners)
+
+Syntax :-  chmod who operator permission file
+
+Chmod -> command
+Who -> user or group or other
+Operators-> +, -
+Permission:- r, w,x
+file:- file name
