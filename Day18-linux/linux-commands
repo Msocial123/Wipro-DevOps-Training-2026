@@ -132,3 +132,29 @@
    15  chmod 740 ipl.html 
    16  ls -l ipl.html 
    17  history
+
+# How to create users in linux os
+   18  sudo useradd murali
+   19  sudo adduser murali
+   20  sudo adduser mohan
+   21  whoami
+   22  sudo -i murali
+   23  whoami
+   24  sudo su murali
+   25  sudo -i mohan
+   26  su - murali
+   27  su - mohan
+   28  whoami
+   29  sudo adduser ranjan
+   30  su - ranjana
+   31  su - ranjan
+   32  cat /etc/passwd
+   33  cut -d: -f1 /etc/passwd
+   34  who
+   35  whoami
+   36  id murali
+   37  sudo userdel murali
+   38  cut -d: -f1 /etc/passwd
+   39  sudo userdel ranjan
+   40  cut -d: -f1 /etc/passwd
+   41  history

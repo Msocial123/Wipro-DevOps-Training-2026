@@ -54,3 +54,15 @@ Others:- -w- -> 2 = 2
 Chmod rwx filename
 
 Chmod 700 filename
+
+How to create users
+================
+
+Method 1
+========
+Sudo useradd <username>
+
+Method 2 
+========
+
+Sudo adduser <username>
