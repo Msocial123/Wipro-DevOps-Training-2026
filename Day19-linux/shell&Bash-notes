@@ -1,0 +1,25 @@
+Bash = Bourne again Shell
+=====================
+
+	Ø It is a default shell in most linux distributions like ubuntu and centos etc
+	Ø It is a command line interpreter 
+	Ø Used for :- running commands, writing shell scripts and automate any task 
+
+Wt is a shell?
+===========
+
+	Ø Interface between user and kernel 
+
+Ex:- bash, zsh, sh
+
+
+Wt is shell script?
+==============
+
+	Ø It is a file that contains a series of commands written for the shell to execute 
+
+Touch index.html
+Mkdir ipl
+Cd ipl
+
+

@@ -1,0 +1,56 @@
+    5  vi murali-files.sh
+    6  ls
+    7  cat murali-files.sh 
+    8  ls
+    9  ls -l murali-files.sh 
+   10  chmod u+x murali-files.sh 
+   11  ls
+   12  ls -l murali-files.sh 
+   13  ./murali-files.sh 
+   14  vi murali-files.sh 
+   15  ls
+   16  ./murali-files.sh 
+   17  vi variables.sh
+   18  ls
+   19  chmod u+x variables.sh 
+   20  ls
+   21  ./variables.sh 
+   22  vi my-files.sh
+   23  ls
+   24  chmod 700 my-files.sh 
+   25  ls
+   26  ./my-files.sh 
+   27  ls
+   28  vi my-files.sh 
+   29  ./my-files.sh 
+   30  ls
+   31  vi loops-files.sh
+   32  ls
+   33  cat loops-files.sh 
+   34  chmod 700 loops-files.sh 
+   35  ls
+   36  ./loops-files.sh 
+   37  ls
+   38  history
+controlplane:~$ ls
+amazon  demo       file10.txt  file3.txt  file5.txt  file7.txt  file9.txt   index.html  loops-files.sh   my-files.sh  sample       variables.sh
+app     file1.txt  file2.txt   file4.txt  file6.txt  file8.txt  filesystem  login.html  murali-files.sh  netflix      signup.html
+controlplane:~$ cat loops-files.sh 
+for i in {1..10}
+do
+  touch file$i.txt
+done
+controlplane:~$ cat murali-files.sh 
+echo "Hello DevOps and we are learning linux , bash , shell script in the part of devops training"
+controlplane:~$ cat my-files.sh 
+touch index.html
+touch login.html
+touch signup.html
+touch demo
+touch app
+touch sample
+touch netflix
+touch amazon
+controlplane:~$ cat variables.sh 
+name="murali"
+echo "Hello $name"
