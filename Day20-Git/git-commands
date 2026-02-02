@@ -44,3 +44,61 @@
   46 git revert 776afc73e719f79d592f74b2602a93d7a3753139
   47 ls
   48 git status
+    61 git branch cart-page
+  62 git branch
+  63 git checkout cart-page
+  64 git branch
+  65 ls
+  66 ls
+  67 git status
+  68 git add .
+  69 git commit -m "added cart.html file"
+  70 git branch
+  71 git push origin cart-page
+  72 git branch payment
+  73 git branch
+  74 git checkout payment
+  75 git branch
+  76 git status
+  77 git add .
+  78 git commit -m "added you payment.html"
+  79 ls
+  80 git status
+  81 git push origin payment
+  82 git branch
+  83 git checkout main
+  84 git branch
+  85 git merge payment
+  86 ls
+  87 git status
+  88 git push origin main
+  89 git pull origin payment
+  90 git pull origin cat-page
+  91 git pull origin cart-page
+  92 git pull origin main
+  93 git push origin main
+  94 history
+  95 git branch orders
+  96 git branch
+  97 git checkout orders
+  98 git branch
+  99 git status
+ 100 git add .
+ 101 git commit -m "added orders.html file"
+ 102 git status
+ 103 ls
+ 104 git branch main
+ 105 git checkout main
+ 106 ls
+ 107 git branch
+ 108 git merge orders
+ 109 git push origin main
+ 110 git branch
+ 111 git brnahc wishlist
+ 112 git branch wishlist
+ 113 git branch
+ 114 git checkout wishlist
+ 115 git status
+ 116 git add .
+ 117 git commit -m "added wishlist.html"
+ 118 git push origin wishlist
