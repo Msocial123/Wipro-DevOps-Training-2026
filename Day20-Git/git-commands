@@ -102,3 +102,17 @@
  116 git add .
  117 git commit -m "added wishlist.html"
  118 git push origin wishlist
+  121 git tag -a whislist-page -m "wishlost page" 3bfbb9decb22083f73c07a874cf338e3acbfda63
+ 122 git log
+ 123 git tag -a orders-page -m "orders page tag" bacc9a7e911cd358399342f63a2a854bc4f07586
+ 124 git log
+ 125 git branc
+ 126 git branch
+ 127 git branch -d cart-page
+ 128 git branch
+ 129 git push origin --delete cart-page
+ 130 git branch
+ 131 git push origin --delete payment
+ 132 git branch
+ 133 git branch -d payment
+ 134 git branch
