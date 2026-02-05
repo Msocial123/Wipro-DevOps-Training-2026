@@ -1,0 +1,21 @@
+Nexus
+=====
+
+Why nexus?
+==========
+	Ø To store a war file into nexus artifact repo manager
+
+Wt is Nexus?
+==========
+
+	Ø It is a open src platform 
+	Ø Anyone can  use
+	Ø It is artifact repo manager
+
+
+	Ø Nexus will provide two kind of artifacts 
+	Ø Artifact is nothing collections of files
+
+
+	1. Snapshot artifact:- it is a developer copy means still app is developing mode 
+Release artifact:- it is end user copy means app is ready to release into prod
