@@ -12,3 +12,15 @@
    25  ansible webservers -a "sudo service docker stop"
    26  ansible webservers -a "sudo service docker start"
    27  ansible webservers -a "sudo yum  install git -y"
+
+      33  vi install-pkgs-playbook.yaml
+   34  ls
+   35  cat install-pkgs-playbook.yaml
+   36  ansible-playbook install-pkgs-playbook.yaml --syntax
+   37  vi install-pkgs-playbook.yaml
+   38  ansible-playbook install-pkgs-playbook.yaml --syntax
+   39  vi install-pkgs-playbook.yaml
+   40  ansible-playbook install-pkgs-playbook.yaml --syntax
+   41  ansible-playbook install-pkgs-playbook.yaml --check
+   42  ansible-playbook install-pkgs-playbook.yaml
+

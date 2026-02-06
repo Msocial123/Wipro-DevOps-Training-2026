@@ -1,0 +1,21 @@
+---
+- hosts: webservers 
+  user: ansible 
+  become: yes 
+  connection: ssh
+  tasks:
+
+    - name: install httpd on my host machine 
+      action: yum pkg=httpd state=present 
+
+    - name: install git on my host machine 
+      action: yum pkg=git state=present 
+
+    - name: install docker on my host machine 
+      action: yum pkg=docker state=present
+
+    - name: install java on my host machine 
+      action: yum pkg=java state=present
+
+    - name: install python on my host machine 
+      action: yum pkg=python state=present
