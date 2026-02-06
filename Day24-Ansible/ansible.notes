@@ -1,0 +1,5 @@
+   16  ansible webservers -a "touch index.html"
+   17  ansible webservers -a "touch login.html signup.html"
+   18  ansible webservers -a "mkdir DevOPs"
+   19  ansible webservers -a "mkdir ipl nasa srh rcb dl"
+   20  history
