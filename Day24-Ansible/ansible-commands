@@ -45,4 +45,12 @@
    93  ansible-vault edit murali-playbook.yaml
    94  ls
 
+   96  ls
+   97  ansible-vault decrypt install-pkgs-playbook.yaml
+   98  ls
+   99  cat install-pkgs-playbook.yaml
+  100  ls
+  101  ansible-vault decrypt murali-playbook.yaml
+  102  ls
+  103  vi murali-playbook.yaml
 
