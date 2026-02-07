@@ -24,3 +24,25 @@
    41  ansible-playbook install-pkgs-playbook.yaml --check
    42  ansible-playbook install-pkgs-playbook.yaml
 
+   # ansible vault commands
+
+      77  ansible-vault encrypt install-pkgs-playbook.yaml
+   78  ls
+   79  cat install-pkgs-playbook.yaml
+   80  ls
+   81  vi install-pkgs-playbook.yaml
+   82  ls
+   83  ansible-vault edit install-pkgs-playbook.yaml
+   84  ls
+   85  ansible-vault encrypt start-pkgs-playbook.yaml
+   86  cat start-pkgs-playbook.yaml
+   87  vi start-pkgs-playbook.yaml
+   88  ansible-vault edit start-pkgs-playbook.yaml
+   89  ls
+   90  ansible-vault create murali-playbook.yaml
+   91  ls
+   92  cat murali-playbook.yaml
+   93  ansible-vault edit murali-playbook.yaml
+   94  ls
+
+
