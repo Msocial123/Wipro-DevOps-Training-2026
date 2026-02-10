@@ -1,3 +1,5 @@
 *
 !*.tf
 !*.gitignore
+!*.tfvars
+!*modules/
