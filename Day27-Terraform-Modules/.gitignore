@@ -4,3 +4,9 @@
 !*.tfvars
 !modules/
 !modules/**
+!Dev-Env/
+!Dev-Env/**
+!Prod-Env/
+!Prod-Env/**
+!Stag-Env/
+!Stag-Env/**

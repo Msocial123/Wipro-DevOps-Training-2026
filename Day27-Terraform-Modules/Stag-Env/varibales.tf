@@ -25,3 +25,9 @@ variable "pub_subnet_az" {
 variable "pub_subnet_name" {
   description = "this is for public subnet name"  
 }
+
+# provider variables
+
+variable "stag_env_region" {
+  description = "this is for staging env  region"
+}
