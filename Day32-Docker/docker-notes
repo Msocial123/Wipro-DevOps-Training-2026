@@ -30,3 +30,25 @@ Docker network types
 Ø NAT used to access internet 
 Ø Port mapping required to expose svc
 It is for prod use and 90% of real world containers are running on bridge network.
+
+    2. Host Network
+==============
+
+Ø Docker will not manage this host network
+Ø We cant create custom host network 
+Ø Containers will not get any ip add
+Ø No NAT 
+Ø  no Port mapping 
+Ø There is no any isolation for containers
+Ø Host network behaves like a process running on host machine
+Ø It is a linux host  network 
+
+    3. None network 
+==============
+
+Ø No ip
+Ø No internet 
+Ø No communication 
+Ø We cant create custom create network
+Ø None network is not a real network driver
+It is for database servers 

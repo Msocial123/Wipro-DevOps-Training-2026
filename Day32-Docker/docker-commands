@@ -73,3 +73,12 @@ apt update && apt install iputils-ping -y
       83  netstat -tulpn | grep 80
    84  apt install net-tools -y
    85  netstat -tulpn | grep 80
+
+   # none network commands
+      89  docker run -dit --name web1 --network none nginx
+   90  docker ps
+   91  docker inspect web1
+   92  docker network ls
+   93  docker inspect network none
+   94  docker ps
+   95  docker exec -it web1 bash
