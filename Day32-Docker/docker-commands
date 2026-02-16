@@ -70,3 +70,6 @@ apt update && apt install iputils-ping -y
    76  ls
    77  docker ps
    78  docker exec -it demo-1 bash
+      83  netstat -tulpn | grep 80
+   84  apt install net-tools -y
+   85  netstat -tulpn | grep 80
