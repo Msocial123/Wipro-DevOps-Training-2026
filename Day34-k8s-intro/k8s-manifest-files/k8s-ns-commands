@@ -33,3 +33,13 @@
    57  kubectl delete ns amazon-ns
    58  kubectl get ns
    59  history
+
+
+   73  cat pod.yaml
+   74  kubectl get ns -n ipl-ns
+   75  kubectl get pods -n ipl-ns
+   76  ls
+   77  kubectl apply -f pod.yaml
+   78  kubectl get pods
+   79  kubectl get pods -n ipl-ns
+   80  history

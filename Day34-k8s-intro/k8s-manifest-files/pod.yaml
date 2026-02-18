@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod 
+metadata:
+  name: ipl-pod
+  namespace: ipl-ns
+spec:
+  containers:
+    - name: ipl
+      image: muralisocial123/ipl:latest
+      ports:
+        - containerPort: 3000
