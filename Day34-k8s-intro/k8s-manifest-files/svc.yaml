@@ -11,3 +11,21 @@ spec:
       port: 80         # host port or service port, it can be any port number, it is not necessary to be same as container port
       targetPort: 3000 # container port, it should be same as container port defined in deployment.yaml
   type: ClusterIP    # default service type, it is used to expose the service internally within the cluster
+
+---
+# svc type nodeport 
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: ipl-service
+  namespace: murali-ns
+spec:
+  selector:
+    app: ipl
+  ports:
+    - protocol: TCP
+      port: 80
+      nodePort: 30080
+      targetPort: 3000 # container port, it should be same as container port defined in deployment.yaml
+  type: NodePort    # it is used to expose the service externally to the outside world, it will create a node port in the range of 30000-32767 and map it to the target port defined in deployment.yaml
