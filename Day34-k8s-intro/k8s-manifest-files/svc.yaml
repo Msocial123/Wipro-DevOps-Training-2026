@@ -47,6 +47,9 @@ spec:
       targetPort: 3000 # container port, it should be same as container port defined in deployment.yaml
   type: LoadBalancer    # it is used to expose the service externally to the outside world, it will create a load balancer and map it to the target port defined in deployment.yaml, it is supported by cloud providers like AWS, GCP, Azure etc.
 
+http://3.87.30.153:30080/
+
+
 ---
 # svc type externalname
 apiVersion: v1  
