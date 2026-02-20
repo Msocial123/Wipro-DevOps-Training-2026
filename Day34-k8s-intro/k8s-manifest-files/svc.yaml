@@ -46,3 +46,14 @@ spec:
       port: 80
       targetPort: 3000 # container port, it should be same as container port defined in deployment.yaml
   type: LoadBalancer    # it is used to expose the service externally to the outside world, it will create a load balancer and map it to the target port defined in deployment.yaml, it is supported by cloud providers like AWS, GCP, Azure etc.
+
+---
+# svc type externalname
+apiVersion: v1  
+kind: Service
+metadata:
+  name: external-service
+  namespace: murali-ns
+spec:
+  type: ExternalName
+  externalName: google.com   # it is used to map the service to an external DNS name, it is used to access the external service from within the cluster, it does not create any proxy or load balancer, it just maps the service to the external DNS name
