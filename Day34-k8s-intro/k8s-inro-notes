@@ -233,3 +233,14 @@ Name: "murali"  - key value pair
 
 Name: - key 
 Murali: value
+
+Username: murali  - bXVyYWxp
+Passwd: Murali&$%691 - TXVyYWxpJiQlNjkx
+
+Base64:- it is nothing but the process of encoding and decoding ur values is called base64
+
+It will not encrypt ur values but it will only encode and decode ur values 
+
+K8s secrets will stores values in different types 
+
+Opaque:- it is a default k8s secret type
