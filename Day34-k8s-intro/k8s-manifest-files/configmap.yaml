@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: retail-app-config
+  namespace: murali-ns
+data:
+  MONGODB_URI: "mongodb://mongodb:27017/myDatabase"
+  SESSION_SECRET: "1234"
+  PORT: "3130"
+  MONGO_INITDB_DATABASE: "myDatabase"

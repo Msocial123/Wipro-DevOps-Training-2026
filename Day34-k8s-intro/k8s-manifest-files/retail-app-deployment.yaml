@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: retail-app-deployment
+  namespace: murali-ns
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: retail
+  template:
+    metadata:
+      labels:
+        app: retail
+    spec:
+      containers:
+      - name: retail-container
+        image: saiteja2502/userprofileretail:latest
+        ports:
+        - containerPort: 3130  # Change to match your app's port
+        env:
+          - name: MONGODB_URI
+            valueFrom:
+              configMapKeyRef: 
+                name: retail-app-config
+                key: MONGODB_URI
+          - name: SESSION_SECRET
+            valueFrom:
+              configMapKeyRef:
+                name: retail-app-config
+                key: SESSION_SECRET
+          - name: PORT
+            valueFrom:
+              configMapKeyRef:
+                name: retail-app-config
+                key: PORT
+          - name: EMAIL_USER
+            value: "chagantyteja2502@gmail.com"
+          - name: EMAIL_PASS
+            value: "yxoq bjuk rdnt alzp"
