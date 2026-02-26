@@ -19,17 +19,16 @@ pipeline {
                 }
             }
         }
-        stage('deploy to container'){
+        stage('deploy to comopse'){
             steps {
-                sh 'docker run -d --name retail-app -p 3130:3130 muralisocial123/fss-retail-app:v1.0.1'
+               // sh 'docker-compose up -d'
+               sh 'docker-compose down'
             }
         }
     }
 }
 
 
+# for folder permission error in jenkins pipeline, run below commands on jenkins VM only.
 
-# For docker login failed error in jenkins pipeline, run below commands on jenkins VM only.
- 
-sudo usermod -aG docker jenkins
-sudo systemctl restart jenkins
+sudo chown -R jenkins:jenkins /var/lib/jenkins/workspace/cicd-pipeline 
