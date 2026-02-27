@@ -1,0 +1,28 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: vegetable-app
+  namespace: argocd
+spec:
+  project: default
+
+  source:
+    # GitHub Pages URL (Helm repository)
+    repoURL: https://Msocial123.github.io/Vegetable-app-Helm-chart
+    chart: veg-app
+    # Deploy latest released chart version
+    targetRevision: "*"  # it will deploy the latest version of the chart available in the helm repository
+    helm:
+      valueFiles:
+        - values.yaml
+
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: murali-ns 
+
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true # This option allows Argo CD to create the target namespace if it does not already exist. In this case, if the "murali-ns" namespace does not exist, Argo CD will create it automatically during the synchronization process.
