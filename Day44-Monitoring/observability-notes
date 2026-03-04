@@ -1,0 +1,55 @@
+Why observability?
+===============
+
+	Q. Unfortunately your app is running slow, why?
+
+	Ø Server cpu
+	Ø Server logs
+	Ø Restart the app
+
+	Ø In modern technology all app's are running in modern systems, we used basic monitoring 
+	Ø Something is broken in the server
+
+But modern systems are:
+=====================
+
+	1. microservices'  - all e-commerce app's
+	2. Containers
+	3. Kubernetes
+	4. Distributed systems 
+
+	Ø When something breaks , it is very difficult to know the root cause.
+
+That's why we need observability 
+
+What is observability?
+==================
+
+	Ø It is nothing but the ability to understand wt is happening inside a system by looking its outputs - metrics, logs and traces.
+
+
+Monitoring :- it will tell you what happened 
+Observability:- it will tell you why it happened
+
+
+Observability four golden signals 
+===========================
+
+Latency:- user open a browser the fast response time is 10 secs but it is responding in 15 sec , there is a problem is called latency  - how fast system responds
+
+Traffic:- how many requests your system is receiving , 100 - 500 req/sec, 1000 - 5000 req/sec, if traffic suddenly increases --> system can crash - how many users are accessing
+
+Errors:- how many requests are failing , if error rate increases --> system will become unhealthy - how many requests fail
+
+Saturation :- how full your system resources are :- cpu, memory, disk, network - how much system resources are used.
+
+Observability tools
+===============
+
+Metrics :- Prometheus 
+
+Visualization:- Grafana
+
+Logs :- ELK - Elasticsearch, Logstash, Kibana
+
+Traces :- jaeger 
